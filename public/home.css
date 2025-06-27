@@ -86,7 +86,7 @@ body{
     #welcome{
       border:1px solid black;
       border-radius:10px;
-      background-image: url(/images/bg/field.png);
+      background-image: url(images/bg/field.png);
       background-size:cover;
       padding:15px;
       position: relative;
@@ -367,7 +367,7 @@ width: auto;
         padding:15px;
         width:calc(100% - 50px);
         margin-top: 7px;
-        background-image: url(/images/bg/dithered-image.png);
+        background-image: url(images/bg/dithered-image.png);
         background-size: 110%;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -376,7 +376,7 @@ width: auto;
       #guestbook p{
         border:1px solid black;
         border-radius: 5px;
-        padding:40px 10px; 
+        padding:40px 15px; 
         background-color: white;
   
       }

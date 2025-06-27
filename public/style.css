@@ -7,7 +7,7 @@
       }
 
     @font-face { 
-      src: url(/fonts/GrapeSoda.ttf); 
+      src: url(fonts/GrapeSoda.ttf); 
       font-family: GrapeSoda; /*GrapeSoda*/
     }
     
@@ -52,7 +52,7 @@
     
     body {
       background-color: white;
-      background-image: url('/images/graphics/bg.png');
+      background-image: url('images/graphics/bg.png');
       background-repeat: repeat;  
       color: black;
       font-family: basiic;
@@ -113,7 +113,7 @@
         .mainBox{
         border-width:7px;
         border-style:solid;
-        border-image: url("/border.png") 7 fill round;
+        border-image: url("border.png") 7 fill round;
         font-family: basiic;
         font-size:17px;
         padding:10px;

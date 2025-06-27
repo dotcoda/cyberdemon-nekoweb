@@ -1,7 +1,3 @@
-
-
-
-
 h3{
    
     margin-top: -10px;
@@ -34,7 +30,7 @@ h4{
 }
 
 #titleFront{
-   background-image: url('/images/graphics/nintend.png');
+   background-image: url('../images/graphics/nintend.png');
    width:450px;
 
 
@@ -61,7 +57,7 @@ h4{
     border:1px solid black;
     padding:20px;
     border-radius: 10px;
-    background-image: url(/images/bg/dithered-image.png);
+    background-image: url(../images/bg/dithered-image.png);
     background-size: cover;
 }
 
@@ -135,7 +131,7 @@ h4{
     border: 1px solid black;
     border-radius: 10px;
     padding:10px;
-    background-image: url('/images/bg/bg22.png');
+    background-image: url('../images/bg/bg22.png');
     background-repeat: repeat;   
     background-size:80%
 
