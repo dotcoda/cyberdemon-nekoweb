@@ -28,12 +28,13 @@
             <div id="back">
                 <a href="../home.html">back to site</a>
             </div>
-            <div id="myBtnContainer">
-                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-                <button class="btn" onclick="filterSelection('academic')">Academic</button>
-                <button class="btn" onclick="filterSelection('freewrite')"> Free write</button>
-                <button class="btn" onclick="filterSelection('Personal')"> Personal</button>
-            </div>
+
+            
+
+            <div id="filterMessage">Currently showing: All</div>
+            <button class="btn" onclick="filterSelection('all')">Show all</button>
+
+
 
             <div class="container">
                 <div class="entry academic sources history enviornmentalism">
@@ -80,7 +81,7 @@
 
 
             </div>
-            <div id="emptyMessage">No items match your selection.</div>
+           
 
             <script src="filter.js"></script>
 

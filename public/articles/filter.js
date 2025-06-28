@@ -1,5 +1,7 @@
 filterSelection("all")
 function filterSelection(c) {
+  document.getElementById('filterMessage').innerHTML = 'Currently showing articles tagged as <span>' + c + '</span>';
+
   var x = document.getElementsByClassName('entry');
   var anyVisible = false;
 
@@ -11,9 +13,6 @@ function filterSelection(c) {
       anyVisible = true;
     }
   }
-
-  // Show or hide the "empty" message
-  document.getElementById('emptyMessage').style.display = anyVisible ? 'none' : 'block';
 }
 
 
@@ -36,15 +35,4 @@ function w3RemoveClass(element, name) {
     }
   }
   element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
 }

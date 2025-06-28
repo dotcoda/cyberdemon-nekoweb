@@ -5,6 +5,18 @@
     <description>digital dream girl!</description>
     <link>https://cyberdemon.nekoweb.org/</link>
     <language>en-us</language>
+
+     <item>
+    	<guid>post-3</guid>
+        <link>https://cyberdemon.nekoweb.org/articles/</link>
+        <title>Articles page</title>
+        <description>
+            want to read my writing? check out my articles page!
+        </description>
+        <pubDate>
+          Fri, 27 Jun 2025 13:02:51 -0500
+        </pubDate>
+    </item>
     
     <item>
     	<guid>post-2</guid>
