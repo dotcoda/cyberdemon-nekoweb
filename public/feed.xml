@@ -6,6 +6,19 @@
     <link>https://cyberdemon.nekoweb.org/</link>
     <language>en-us</language>
 
+    <item>
+    	<guid>post-4</guid>
+        <link>https://cyberdemon.nekoweb.org/blog/</link>
+        <title>New Blog Post</title>
+        <description>
+            a little life update!
+        </description>
+        <pubDate>
+         Fri, 11 Jul 2025 15:48:52 -0500
+        </pubDate>
+    </item>
+
+
      <item>
     	<guid>post-3</guid>
         <link>https://cyberdemon.nekoweb.org/articles/</link>

@@ -3,6 +3,16 @@
 
 }
 
+    @font-face { 
+      src: url(fonts/NitroDS-font_v1.0/nitrods-font.ttf); 
+      font-family: DS; 
+    }
+
+    .emoji{
+      font-family: DS;
+    }
+    
+
 
 span{
   font-family: 'Notepen';
