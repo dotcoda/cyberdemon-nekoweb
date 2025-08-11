@@ -16,4 +16,4 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-domain: 'cyberdemon.nekoweb.org'
           nekoweb-username: 'cyberdemon'
-          directory: 'cyberdemon.nekoweb.org'
+          directory: 'public'
